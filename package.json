@@ -1,0 +1,24 @@
+{
+  "name": "screencast-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "npx webpack --watch --config ./config/webpack.dev",
+    "prod": "npx webpack --config ./config/webpack.prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.11.0",
+    "webpack-merge": "^4.1.1"
+  }
+}
