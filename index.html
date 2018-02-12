@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fale Conosco</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <form id="contact" action="" method="post">
+      <h3>Fale Conosco</h3>
+      <h4>Costumamos responder em até 24 horas.</h4>
+      <fieldset>
+        <label for="name">Name</label>
+        <input id="name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <label for="website">Website</label>
+        <input id="website" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <label for="message">Message</label>
+        <textarea id="message" tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="submit" data-submit="...Sending" id="submit">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="/fale.js"></script>
+</body>
+</html>
