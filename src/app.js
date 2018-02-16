@@ -1,4 +1,6 @@
 
-window.$ = window.jQuery = require('jquery')
+/**
+* Scripts comuns a todas as paginas!
+*/
 
-require('./fale')
+console.log('app module');
